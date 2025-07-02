@@ -26,7 +26,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat ;
-  background-image: url(${backgroundImage});
+  /*background-image: url(${backgroundImage});*/
   background-color: #000000ce;
 
   .input {

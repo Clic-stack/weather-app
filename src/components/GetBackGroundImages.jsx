@@ -2,13 +2,13 @@ import { codes } from '../helpers/lib.js'
 
 function GetBackGroundImages(code) {
     const backgrounds ={
-        thunderstorm: '/public/images/thunderstorm.jpg',
-        drizzle: '/public/images/drizle.jpg',
-        rain: '/public/images/Rain.jpg',
-        snow: '/public/images/Snow.jpg',
-        atmosphere: '/public/images/atmosphere.jpg',
-        clear: '/public/images/clear.jpg',
-        clouds: '/public/images/clouds.jpg'
+        thunderstorm: '/images/thunderstorm.jpg',
+        drizzle: '/images/drizzle.jpg',
+        rain: '/images/Rain.jpg',
+        snow: '/images/Snow.jpg',
+        atmosphere: '/images/atmosphere.jpg',
+        clear: '/images/clear.jpg',
+        clouds: '/images/clouds.jpg'
     }
     
     if (codes.thunderstorm.includes(code)) return backgrounds.thunderstorm
