@@ -1,0 +1,75 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 15px;
+  box-sizing: border-box;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  place-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat ;
+  background-image: url(${backgroundImage});
+  background-color: #000000ce;
+
+  .input {
+    margin-bottom: 5px;
+    margin-top: 1em;
+    padding: .25em 0.15em;
+    border: none;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 1em;
+    text-align: center;
+    background-size: cover;
+  }
+
+  .search__btn {
+    margin-top: 1em;
+    padding: .25em 0.15em;
+    border: none;
+    outline: none;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    background-size: cover;
+  }
+}
+
+.loading-screen {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(255, 168, 76, 0.6) 0%, rgba(255, 123, 13, 0.6) 100%), url('https://images.unsplash.com/photo-1446824505046-e43605ffb17f');
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-position: center center;
+  padding: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
