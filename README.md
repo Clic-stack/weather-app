@@ -4,7 +4,7 @@ Esta aplicación fue desarrollada como parte de un proyecto de aprendizaje con e
 
 ## 🚀Demo en línea  
 ```bash
-**🔗 https://weatherapp-cs.netlify.app**
+🔗 https://weatherapp-cs.netlify.app
 ```
 
 ## 🎯 Objetivo del proyecto
@@ -161,7 +161,7 @@ This application was developed as part of a learning project with the goal of bu
 
 ## 🚀 Live Demo
 ```bash
-**🔗 https://weatherapp-cs.netlify.app**
+🔗 https://weatherapp-cs.netlify.app
 ```
 
 ## 🎯 Project Objective
