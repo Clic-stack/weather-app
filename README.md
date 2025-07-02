@@ -3,7 +3,9 @@
 Esta aplicación fue desarrollada como parte de un proyecto de aprendizaje con el objetivo de construir adecuadamente una aplicación web en React usando Vite.js y que a su vez consumiera la API de OpenWeatherMap haciendo uso de una APIkey para mostrar la información del clima en tiempo real según la ubicación del usuario.
 
 ## 🚀Demo en línea  
-**🔗**
+```bash
+**🔗 https://weatherapp-cs.netlify.app**
+```
 
 ## 🎯 Objetivo del proyecto
 
@@ -158,7 +160,9 @@ Desarrollado por Clio Salgado como parte de un proyecto de React para Academlo c
 This application was developed as part of a learning project with the goal of building a web application using React and Vite.js, consuming the OpenWeatherMap API with an API key to display real-time weather information based on the user's current location.
 
 ## 🚀 Live Demo
-**🔗**
+```bash
+**🔗 https://weatherapp-cs.netlify.app**
+```
 
 ## 🎯 Project Objective
 Build an interactive web application using React and Vite.js that fetches real-time weather data from OpenWeatherMap, based on either the user's geolocation or manual city input.
