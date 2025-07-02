@@ -26,6 +26,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat ;
+  /* El fondo ahora se aplica dinámicamente desde React usando document.body.style.backgroundImage */
   /*background-image: url(${backgroundImage});*/
   background-color: #000000ce;
 
